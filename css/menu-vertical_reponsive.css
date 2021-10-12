@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(53, 52, 52);
+}
+h1{
+    color:white;
+    font-style: 2.2em;
+    text-align: right;
+    margin-top: 40px;
+    font-weight: 900;
+    margin-right: 50px;
+}
+p{
+    color: white;
+    font-size: 1.3em;
+    text-align: justify;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+nav{
+    background: rgb(0,0,0,.8);
+    position: fixed;
+    height: 100%;
+    top: 0;
+    z-index: 10;
+left: -17em;
+/*transition: all .5s;*/
+}
+.menu{
+list-style: none;
+line-height: 60px;
+margin: 7em auto 0 auto;
+width: 16em;
+padding-left: .1em;
+
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding-left: 1.3em;
+    width: 100%;
+    font-size: 1.3em;
+    transition: all .2s;
+    cursor: pointer;
+
+}
+.menu li {
+    box-shadow: 3px 0 rgba(129, 125, 125, 0.8) inset;
+    margin-bottom: 5px;
+    transition: all .5s;
+}
+.menu li:hover{
+    font-size: 1.1em;
+    box-shadow: 15em 0 rgba(85, 83, 83, 0.8) inset;
+}
+.menu a:hover{
+    margin-left: 1em;
+}
+
+.fas, .fad{
+    color: white;
+    padding-right:  .3em;
+
+}
+.icono-menu{
+    position: fixed;
+    top: 50px;
+    left: 40px;
+    z-index: 20;
+}
+.fa-bars{
+    font-size: 1.8em;
+}
+.mostrarNav {
+     left: 0;
+}
+.main-content{
+    margin-top: 25px;
+    width: 85%;
+    margin-right: 100%;
+}

@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#nav-bar{
+    color: white;
+   margin: 25px 25px  25px 10px;
+    display: inline-block;
+}
+ul{
+list-style-type: none; 
+font-size: 1.6em;
+text-align: center;
+padding-bottom: 30px;
+width: 280px;
+}
+li{
+    background-color:rgb(28, 106, 207);
+    padding: 20px;
+    margin: 4px;
+
+}
+li:hover{
+    font-size: 1.1em;
+    background-color: rgb(25, 117, 238);
+}
+a {
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contactenos</title>
+    <link rel="stylesheet" href="css/contactenos.css">
+    <link rel="stylesheet" href="css/lista.css">
+</head>
+<body>
+    <ul>
+        <li ><a href="index.html">Inicio</a></li>
+        <li><a href="vinos.html">Productos</a></li>
+        <li class="a:hover"><a href="tablas.html">Tabla</a></li>
+        <li><a href="layouts.html">layouts</a></li>
+        <li class="menu-contactenos">contactenos</li>
+       
+        
+    </ul> 
+    <h1>contactenos</h1>
+    <form action="resgistrar-info.php" method="POST">
+        <fieldset>
+            <legend>Ingrse la Informacion</legend>
+        Ingrese su nombre <br>
+        <input type="text" name="nombres" ><br> <br>
+        Ingrese su apellidos <br>
+        <input type="text" name="apellidos" ><br> <br>
+        Ingrese un comentario <br>
+        <textarea name="pregunta"  cols="60" rows="5"></textarea><br><br>
+        Modo de pago <br>
+        <input type="radio" name="modo de pago"value="credito" >crédito <br>
+        <input type="radio" name="modo de pago"value="contado" >contado <br><br>
+        Clases de Vinos de Interés <br>
+        <input type="checkbox" name="clases de vino" value="Vino Tinto">Vino Tinto <br>
+        <input type="checkbox" name="clases de vino" value="Vino Blanco">Vino Blanco <br>
+        <input type="checkbox" name="clases de vino" value="Vino Rosado">Vino Rosado<br>
+        <input type="checkbox" name="clases de vino" value="Vino Espumoso">Vino Espumoso <br><br>
+        Ciudad de Residencia <br>
+        <select name="ciudad" >
+            <option value="Neiva">Neiva</option>
+            <option value="Pitalito">Pitalito</option>
+            <option value="Garzon">Garzón</option>
+            <option value="Timana">Timaná</option>
+            <option value="Tarqui">Tarqui</option>
+            <option value="Altamira">Altamira </option>
+            <option value="Acevedo">Acevedo</option>
+            <option value="san Agustin">san Agustín</option>
+        </select><br><br>
+        <input type="submit" value="Enviar">
+    </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,12 @@
+div#main {
+    background-image: url("../img/user-login-png-transparent-6-Transparent-Images.png");
+    width: 100%;
+    height: 95vh;
+    background-repeat: no-repeat;
+    background-position: 95% bottom;
+    background-size: 170px;
+}
+body {
+    background-image: url("../img/white-wine-glasses-with-wine-grapes-wine\ 1400x812.jpg ");
+    background-repeat: no-repeat;
+}

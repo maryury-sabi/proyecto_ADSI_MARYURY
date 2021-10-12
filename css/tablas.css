@@ -1,0 +1,57 @@
+*
+ 
+
+
+table {
+    font-size: 1.7em;
+    border-collapse: collapse;
+    margin: 25px auto;
+    width: 70%;
+}
+
+th, td {
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+
+
+}
+.vinos {
+    background:  rgb(128, 55, 128);
+    color: white;
+    
+}
+.precio {
+    background:  rgb(28, 145, 53);
+    color: white;
+
+}
+.caja {
+    background:  rgb(77, 37, 221);
+    color: white;
+}
+.Pedido {
+background:rgb(216, 11, 11);
+color: white;
+
+
+}
+.Destino {
+    background: rgb(250, 215, 15);
+    color: white;
+
+}
+.Cantidad {
+    background: rgb(226, 7, 178);
+    color: white;
+    
+}
+.N {
+    background: darkcyan;
+    color: white;
+}
+.n1 ,.n2, .n3,.n4,.n5,.n6
+{
+    background: rgba(227, 231, 227, 0.952);
+}
+
