@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap_min.css">
+    <link rel="stylesheet" href="css/bootstrap-offline.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Bootstrap - Elementos básicos</h1>
+    <h2>contenedores</h2>
+    <h3>==container==</h3>
+    <div class="container style-container">
+        container
+        
+    </div>
+    <h3>==container-sm==</h3>
+    <div class="container-sm  style-container">
+        container-sm
+        
+    </div>
+    <h3>==container-md==</h3>
+    <div class="container-md style-container">
+        container-md
+        
+    </div>
+    <h3>==container-lg==</h3>
+    <div class="container-lg style-container">
+        container-lg
+        
+    </div>
+    <h3>==container-xl==</h3>
+    <div class="container-xl style-container">
+        container-xl
+        
+    </div>
+    <h3>==container-xxl==</h3>
+    <div class="container-xxl style-container">
+        container-xxl
+        
+    </div>
+    <h3>==container-xl==</h3>
+    <div class="container-xl style-container">
+        container-xl
+        
+    </div>
+    <h3>==container-fluid==</h3>
+    <div class="container-fluid style-container">
+        container-fluid
+         </div>
+    <h2>columnas</h2>
+    <div class="row style-row">
+        <div class="col style-col">col - 1</div>
+        <div class=" col style-col">col - 2</div>
+        <div class="col style-col">col - 3</div>
+        <div class="col style-col">col - 4</div>
+        <div class="col style-col">col - 5</div>
+        <div class="col  style-col">col - 6</div>
+        <div class="col  style-col">col - 7</div>
+        <div class="col  style-col">col - 8</div>
+        <div class="col  style-col">col - 9</div>
+        <div class="col  style-col">col - 10</div>
+        <div class="col style-col">col - 11</div>
+        <div class="col  style-col">col - 12</div>
+    </div>
+    <h2>columnas Independientes</h2>
+    <div class="row style-row">
+        <div class="col-2 style-col">col - 1</div>
+        <div class="col-1 style-col">col - 2</div>
+        <div class="col-4 style-col">col - 3</div>
+        <div class="col-1 style-col">col - 4</div>
+        <div class="col-1 style-col">col - 5</div>
+        <div class="col-3 style-col">col - 6</div>
+        
+    </div>
+ 
+    <h2>Formulario Básico con Bootstrap</h2>
+ 
+    <div class="container ">
+        <div class="row">
+    <div class="mb-3  col-6 ">
+   
+        <label for="exampleFormControlInput1" class="form-label">Por favor ingrese su Nombre</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1"  >
+        </div>  
+    
+    
+        <div class="mb-3    col-6 ">
+        <label for="exampleFormControlInput1" class="form-label">Por favor ingrese su Apellido</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" >
+        </div>
+    </div>
+    <div class="row">
+        <div class="mb-3  col-6">
+        <label for="exampleFormControlInput1" class="form-label">Por favor ingrese su Dirección</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1"  >
+      </div>
+      <div class="mb-3   col-6">
+      <label for="exampleFormControlInput1" class="form-label">Por favor ingrese su Telefono</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" >
+      </div>
+    </div>
+    <div class="row">
+      <div class="mb-3  col-6">
+      <label for="exampleFormControlInput1" class="form-label">Por favor ingrese correo Electronico </label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" >
+      </div>
+     
+        <div class="mb-3  col-6">
+        <label for="exampleFormControlInput1" class="form-label">Por favor ingrese el Municipio </label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" >
+        </div>
+      <div class="mb-3  col-6">
+        <label for="exampleFormControlTextarea1" class="form-label">Example Textarea </label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+    </div>
+</div>
+<div class="container ">
+<h2>File Input</h2>
+<div class="mb-3">
+    <label for="formFile" class="form-label">Default file input example</label>
+    <input class="form-control" type="file" id="formFile">
+  </div>
+  <div class="mb-3">
+    <label for="formFileMultiple" class="form-label">Multiple files input example</label>
+    <input class="form-control" type="file" id="formFileMultiple" multiple>
+  </div>
+</div>
+ 
+<div class=" container style-container-2 ">
+    <h2>DataList</h2>
+    <label for="exampleDataList" class="form-label"> Seleccione el Municipio de Residencia</label>
+<input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Residencia...">
+<datalist id="datalistOptions">
+    <option value="San Francisco">
+    <option value="New York">
+    <option value="Seattle">
+    <option value="Los Angeles">
+    <option value="Chicago">
+</datalist>
+</div>
+<h2>Select</h2>
+<div class=" container style-container-2 ">
+<select class="form-select" aria-label="Default select example">
+    <option selected>  Ingrese la localidad</option>
+    <option value="1">Kennedy</option>
+    <option value="2"> Rafael Uribe</option>
+    <option value="3"> Tokio</option>
+  </select>
+  </div>
+  <h2>Check</h2><br>
+  <div class=" container style-container-2 "> 
+  <br><br><label>Seleccione el o los lenguajes de programación que utiliza actualmente</label>
+ 
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" id="flexjava">
+    <label class="form-check-label" for="flexCheckDefault">
+        java 
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" id="flex php" checked>
+    <label class="form-check-label" for="flexCheckChecked">
+       php
+    </label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" id="flex Mysql">
+    <label class="form-check-label" for="flexCheckDefault">
+        Mysql
+  </div><br>
+  <h2>Radios</h2><br>
+  <div class=" container style-container-2 "> 
+    <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+        <label class="form-check-label" for="flexRadioDefault1">
+          Default radio
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+        <label class="form-check-label" for="flexRadioDefault2">
+          Default checked radio
+        </label>
+      </div>
+</body>
+</html>
