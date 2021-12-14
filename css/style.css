@@ -1,6 +1,8 @@
 
    
-   
+   body{
+       background: cornsilk;
+   }
   
    * {
       margin: 0;
@@ -8,9 +10,9 @@
   }
   
   .nav {
-      border-bottom: 1px solid #EAEAEB;
+      border-bottom: 1px solid #8e8ebb;
       text-align: right;
-      height: 50px;
+      height: 60px;
       line-height: 50px;
   }
   .menu {
@@ -61,24 +63,28 @@
   }
   .menu{
       
-      text-align: left;
+      text-align: justify;
       width: 700%;
       display: none;
+      background: rgba(26, 23, 29, 0.466);
+      color: white;
   }
   .menu a {
       display: block;
       margin: 0;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
      
     
   }
   #toggle:checked + .menu {
-      left:40px;
+      left:15px;
      position:fixed;
      margin-top: 60px;
       font-weight: 500;
       overflow:scroll ;
       height:700px;
-      width:200px;
+      width:250px;
       display: block;   
       font-size: 1.1em;
       text-align: top  1.0px;
