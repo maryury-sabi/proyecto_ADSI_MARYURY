@@ -7,6 +7,8 @@
     <title>contactenos</title>
     <link rel="stylesheet" href="css/contactenos.css">
     <link rel="stylesheet" href="css/lista.css">
+   
+    <script src="js/contactenos.js"></script>
 </head>
 <body>
     <ul>
@@ -19,15 +21,15 @@
         
     </ul> 
     <h1>contactenos</h1>
-    <form action="resgistrar-info.php" method="POST">
+    <form action="#" method="POST" onsubmit="grae('mary')" onsubmit="vali('num')"onsubmit="validarInfo('numero');" >
         <fieldset>
             <legend>Ingrse la Informacion</legend>
         Ingrese su nombre <br>
-        <input type="text" name="nombres" ><br> <br>
+        <input type="text" name="nombres" id="numero" ><br> <br>
         Ingrese su apellidos <br>
-        <input type="text" name="apellidos" ><br> <br>
+        <input type="text" name="apellidos"  id="num" ><br> <br>
         Ingrese un comentario <br>
-        <textarea name="pregunta"  cols="60" rows="5"></textarea><br><br>
+        <textarea name="pregunta"  cols="60" rows="5" id="mary"></textarea><br><br>
         Modo de pago <br>
         <input type="radio" name="modo de pago"value="credito" >crédito <br>
         <input type="radio" name="modo de pago"value="contado" >contado <br><br>
