@@ -7,8 +7,6 @@
     <title>contactenos</title>
     <link rel="stylesheet" href="css/contactenos.css">
     <link rel="stylesheet" href="css/lista.css">
-   
-    <script src="js/contactenos.js"></script>
 </head>
 <body>
     <ul>
@@ -16,20 +14,21 @@
         <li><a href="vinos.html">Productos</a></li>
         <li class="a:hover"><a href="tablas.html">Tabla</a></li>
         <li><a href="layouts.html">layouts</a></li>
+        <script src="js/contactenos.js"></script>
         <li class="menu-contactenos">contactenos</li>
        
         
     </ul> 
     <h1>contactenos</h1>
-    <form action="#" method="POST" onsubmit="grae('mary')" onsubmit="vali('num')"onsubmit="validarInfo('numero');" >
+    <!---<form action="#" method="post" >--->
         <fieldset>
             <legend>Ingrse la Informacion</legend>
         Ingrese su nombre <br>
-        <input type="text" name="nombres" id="numero" ><br> <br>
+        <input type="text" name="nombres" id="nombre" ><br> <br>
         Ingrese su apellidos <br>
-        <input type="text" name="apellidos"  id="num" ><br> <br>
+        <input type="text" name="apellidos" id="apellidos" ><br> <br>
         Ingrese un comentario <br>
-        <textarea name="pregunta"  cols="60" rows="5" id="mary"></textarea><br><br>
+        <textarea name="pregunta"  cols="60" rows="5" id="comentario" ></textarea><br><br>
         Modo de pago <br>
         <input type="radio" name="modo de pago"value="credito" >crédito <br>
         <input type="radio" name="modo de pago"value="contado" >contado <br><br>
@@ -49,8 +48,8 @@
             <option value="Acevedo">Acevedo</option>
             <option value="san Agustin">san Agustín</option>
         </select><br><br>
-        <input type="submit" value="Enviar">
+        <input type="submit" value="Enviar" onclick="valida();">
     </fieldset>
-    </form>
+   <!-- </form>-->
 </body>
 </html>

@@ -1,32 +1,19 @@
 "use strict"
 
-function validarInfo(numero){
-    let maryu = document.getElementById(numero).value;
+function valida() {
+    let NombreUs= document.getElementById("nombre").value;
+if (NombreUs === ""){
+        alert("Por favor Ingresar el Nombre de usuario");
+    }
 
-    if (maryu === ""){
-        alert("Información incompleta ");
+    let ApellieUs= document.getElementById("apellidos").value;
+      if (ApellieUs === ""){
+        alert("Por favor Ingresar el Apellido de usuario" );
     }
-    else {
-        alert("La informacion ha sido enviada con exito!");
-    }
+    let comenUs= document.getElementById("comentario").value;
+      if (comenUs === ""){
+        alert("Por favor Ingresar el comentario de usuario" );
+}else{
+    alert("La infromacion ha sido enviada con exito !!!")
 }
-function vali(num){
-    let lu = document.getElementById(num).value;
-
-    if (lu === ""){
-        alert("Información incompleta ");
-    }
-    else {
-        alert("La informacion ha sido enviada con exito!");
-    }
-}
-function grae(mary){
-    let nyu = document.getElementById(mary).value;
-
-    if (nyu === ""){
-        alert("Información incompleta ");
-    }
-    else {
-        alert("La informacion ha sido enviada con exito!");
-    }
 }

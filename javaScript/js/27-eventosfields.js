@@ -9,6 +9,6 @@ function validarInfo(numeroDocumento){
         alert("El numero de documento es un dato Obligatorio");
     }
     else {
-        alert("La informacion ha sido enviada con exito!")
+        alert("La informacion ha sido enviada con exito!");
     }
 }
