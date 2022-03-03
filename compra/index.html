@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+        
+            <div class="contenedorP">
+                <div class="contenSutTotal">Subtotal:<label id="Subtotal" class="precio"></label></div>
+                <div class="conten1">Proceder al pago(<label id="numeroProductos">1 producto)</label></div><br>
+                <div class="conten2"></div>
+                <div class="imagen"><img src="img/la_ladrona.jpg" width="157px" alt=""></div><br>
+                <div class="descripcion"><br>
+                    <p>En la Alemania previa a la II Guerra Mundial, Liesel y su hermano son enviados a vivir con una familia de acogida, pero el niño fallece. Para ella, el poder de las palabras y la imaginación se convierte en una forma de escapar de lo que le rodea.z</p>
+                    <label>COP:</label><label id="valorUnitario" class="precio"></label><br><br>
+                  
+                </div><br><br>
+                <div class="botones">
+                    <input type="button" onclick="disminuirPedido()" value="-" >
+                    <label id="unidad">1</label>
+                    <input type="button" onclick="aumentarPedido()" value="+">
+                </div><br><br>
+                <div class="btnEliminar">
+                    <input type="button" value="Eliminar" >
+                </div>
+
+                <div class="guardar"><input type="button" value="Guardar para mas tarde"></div>
+              
+            </div>
+            <script src="js/index.js"></script>
+       
+</body>
+
+</html>
